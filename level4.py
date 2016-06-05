@@ -22,11 +22,13 @@ for i in range(400):
 		pageIds.add(pageId)
 
 	print(pageId)
+
+# next level: peak.html
 # －－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
-   url='http://www.pythonchallenge.com/pc/def/%s'
-   u = url % 'linkedlist.php'
-   nothing = '12345'
-   while nothing.isdigit():
-       s = urllib.urlopen(u + '?nothing=%s' % nothing).read()
-       nothing = str(int(nothing)/2) if 'Divide' in s else s.split()[-1]
-   print url % s
+   # url='http://www.pythonchallenge.com/pc/def/%s'
+   # u = url % 'linkedlist.php'
+   # nothing = '12345'
+   # while nothing.isdigit():
+   #     s = urllib.urlopen(u + '?nothing=%s' % nothing).read()
+   #     nothing = str(int(nothing)/2) if 'Divide' in s else s.split()[-1]
+   # print url % s
