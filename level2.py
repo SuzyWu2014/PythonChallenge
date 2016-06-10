@@ -6,8 +6,8 @@ except ImportError:
     from urllib2 import urlopen
 import collections
 import string
-import re
-import webbrowser as wb
+# import re
+# import webbrowser as wb
 
 # My solution
 response = urlopen("http://www.pythonchallenge.com/pc/def/ocr.html")

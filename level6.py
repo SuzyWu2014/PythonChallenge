@@ -1,5 +1,5 @@
 import zipfile
-import re
+# import re
 import urllib
 
 o, number, file = [], "90052", "%s.txt"
