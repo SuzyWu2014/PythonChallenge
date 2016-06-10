@@ -1,6 +1,6 @@
 import re
 
-data =  open("equality.txt").read()
+data = open("equality.txt").read()
 pattern = re.compile(r'[^A-Z][A-Z]{3}[a-z][A-Z]{3}[^A-Z]')
 
 matches = pattern.findall(data)

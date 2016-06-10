@@ -1,10 +1,12 @@
-import zipfile, re, urllib
+import zipfile
+import re
+import urllib
 
 o, number, file = [], "90052", "%s.txt"
 content = "Next nothing is (\d+)"
 
 zip_url = "http://www.pythonchallenge.com/pc/def/channel.zip"
-urllib.urlretrieve(zip_url,"channel.zip")
+urllib.urlretrieve(zip_url, "channel.zip")
 
 zip_archive = zipfile.ZipFile("channel.zip")
 zipdict = {}
